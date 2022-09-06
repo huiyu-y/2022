@@ -113,6 +113,8 @@ const playeruntitledPlayer = new Vimeo.Player('playeruntitled', options);
 // const playerennoPlayer = new Vimeo.Player('playerenno', options);
 //
 const playernnnPlayer = new Vimeo.Player('playernnn', options);
+
+const playerstonePlayer = new Vimeo.Player('playerstone', options);
 //
 // const playerchinaPlayer = new Vimeo.Player('playerchina', options);
 //
