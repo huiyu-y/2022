@@ -9,13 +9,13 @@ $("#jidoka").click(function(){
   $("#ifr").show();
 });
 
-$("#stone").click(function(){
-  $("#ifr").show();
-});
-
-$("#window").click(function(){
-  $("#ifr").show();
-});
+// $("#stone").click(function(){
+//   $("#ifr").show();
+// });
+//
+// $("#window").click(function(){
+//   $("#ifr").show();
+// });
 
 $("#bunny").click(function(){
   $("#ifr").show();

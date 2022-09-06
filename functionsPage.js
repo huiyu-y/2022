@@ -1,3 +1,9 @@
+function close_window() {
+  if (confirm("⇽Close this Window to go back⇽")) {
+    close();
+  }
+}
+
 const options = {
     title: false,
     portrait: false,
