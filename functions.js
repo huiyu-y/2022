@@ -17,6 +17,15 @@ $("#jidoka").click(function(){
 //   $("#ifr").show();
 // });
 
+$( ".about-hover" ).hide();
+$(".about").hover(function(){
+  $(".about-hover").show();
+});
+$(".about").mouseleave(function(){
+  $(".about-hover").hide();
+});
+
+
 $("#bunny").click(function(){
   $("#ifr").show();
 });

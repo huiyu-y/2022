@@ -146,6 +146,7 @@ position: relative;
 
 .img-small{
   width: 50%;
+
 }
 
 .img-big{
@@ -187,8 +188,38 @@ top:0;
 .middle{
 width: 10%;
 height: 10%;
-padding: 0.5% 0 0 0.5%;
+padding: 1.2% 0 0 1%;
+}
 
+.about{
+  position: fixed;
+  top:0.5%;
+  right:2%;
+  text-decoration:underline;
+  font-size:15px;
+  font-family: 'Cormorant', serif;
+}
+
+.about-hover{
+  height: auto;
+  width: 21%;
+  border: solid 1px rgb(0, 0, 0);
+  position: fixed;
+  right:2%;
+  top: 8%;
+  z-index: 1000;
+  padding: 1%;
+  line-height: 160%;
+  background: white;
+  color: black;
+
+}
+
+.guagua{
+  display: inline;
+  position: relative;
+  right: 0;
+  width: 50%;
 }
 
 .left{
