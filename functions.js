@@ -17,6 +17,8 @@ $("#jidoka").click(function(){
 //   $("#ifr").show();
 // });
 
+
+
 $( ".about-hover" ).hide();
 $(".about").hover(function(){
   $(".about-hover").show();
@@ -96,6 +98,17 @@ $("#yoyo").click(function(){
   $("#yoyo-intro").toggle();
 });
 
+$( "#taipeiny-b" ).hide();
+$("#taipeiny").click(function(){
+  $("#taipeiny-b").toggle();
+});
+
+$( "#taipeiny-img-2" ).hide();
+$("#taipeiny-img").click(function(){
+  $("#taipeiny-img-1").toggle();
+  $("#taipeiny-img-2").toggle();
+});
+
 const options = {
     title: false,
     portrait: false,
@@ -123,7 +136,7 @@ const playeruntitledPlayer = new Vimeo.Player('playeruntitled', options);
 //
 const playernnnPlayer = new Vimeo.Player('playernnn', options);
 
-const playerstonePlayer = new Vimeo.Player('playerstone', options);
+// const playerstonePlayer = new Vimeo.Player('playerstone', options);
 //
 // const playerchinaPlayer = new Vimeo.Player('playerchina', options);
 //
