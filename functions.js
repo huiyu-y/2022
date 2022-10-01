@@ -109,6 +109,11 @@ $("#taipeiny-img").click(function(){
   $("#taipeiny-img-2").toggle();
 });
 
+$( "#hat-intro" ).hide();
+$("#hat").click(function(){
+  $("#hat-intro").toggle();
+});
+
 const options = {
     title: false,
     portrait: false,
