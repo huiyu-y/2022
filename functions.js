@@ -48,8 +48,11 @@ $("#peace").click(function(){
 
 
 $( "#power-intro" ).hide();
+$("#power-img-1").hide();
 $("#power").click(function(){
   $("#power-intro").toggle();
+  $("#power-img").toggle();
+  $("#power-img-1").toggle();
 });
 
 $( "#voice-intro" ).hide();
